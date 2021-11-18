@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Fruktur", cursive;
+  /* font-family: "Libre Baskerville", serif; */
+  font-family: "Montserrat Alternates", sans-serif;
+  /* font-family: "Roboto Slab", serif; */
+}
+.header {
+  background-color: #363636;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo .europa {
+  font-size: 40px;
+}
+.logo .spa {
+  font-size: 22px;
+  text-align: justify;
+}
+.nav {
+  flex: 2;
+  color: white;
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.list .li {
+  padding: 20px;
+}
+.home {
+  color: #f8ad80;
+  position: relative;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #f8ad80;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+}
+.reservation {
+  background-color: #f8ad80;
+  padding: 20px 40px;
+}
+.hero-section {
+  background: url(download.jfif) no-repeat center center fixed;
+  position: relative;
+  background-size: cover;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.luxury {
+  font-size: 90px;
+  font-weight: 800;
+  color: white;
+  bottom: 150px;
+  position: absolute;
+}
